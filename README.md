@@ -1,2 +1,2 @@
-# projectile-sumulator
-Simulación de un proyectil.
+# Projectile Simulator.
+Simulación de un proyectil en Javascript.

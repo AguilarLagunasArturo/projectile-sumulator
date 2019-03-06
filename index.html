@@ -1,14 +1,21 @@
 <html>
 <head>
-  <title>Simulador de proyectiles</title>
+  <title>Lanzador de Proyectiles</title>
   <script src="sketch/p5.js"></script>
   <script src="sketch/p5.dom.js"></script>
   <script src="sketch/main.js"></script>
+  <style>
+    p{
+      font-size: 20px;
+    }
+    li{
+      padding: 10px;
+    }
+  </style>
 </head>
   <body>
-    <h1>
       <center>
-      <a href="https://github.com/AguilarLagunasArturo/projectile-sumulator">Código fuente</a>
+        <h1>Lanzador de proyectiles</h1>
       </center>
       <hr>
       <center>
@@ -16,15 +23,29 @@
           <!-- sketch -->
         </div>
 
-        <div id="velocity-holder">
-          <!-- Velocidad -->
-          <p>Velocidad:</p>
+        <div id="velocity-holder"
+        style="float:left;width:35%;height:50px;">
+        <p>Velocidad: </p>
         </div>
-        <div id="angle-holder">
-          <!-- Angulo -->
-          <p>Ángulo:</p>
+        <div id="angle-holder"
+        style="float:left;width:35%;height:50px;">
+        <p>Ángulo: </p>
+        </div>
+        <div id="button-holder"
+        style="float:left;width:30%;height:50px;">
+        <p>Simulación: </p>
+        <!-- Button -->
+        </div>
+        <br><br><br><br><br><br>
+        <hr>
+        <div>
+          <h2>INTEGRANTES DE EQUIPO</h2>
+          <li>AGUILAR LAGUNAS ARTURO</li>
+          <li>MARQUEZ VARGAS ALEJANDRO</li>
+          <li>MENDEZ LOPEZ ERNESTO DE JESUS</li>
+          <li>VELAZCO ORTIZ ANTONIO</li>
+          <h3><a href="https://github.com/AguilarLagunasArturo/projectile-sumulator">Código fuente.</a></h3>
         </div>
       </center>
-    </h1>
   </body>
 </html>
